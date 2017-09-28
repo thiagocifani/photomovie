@@ -45,7 +45,4 @@ public class Pedido {
     public void setPacote(Pacote pacote) {
         this.pacote = pacote;
     }
-    
-    
-    
 }

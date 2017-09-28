@@ -75,5 +75,4 @@ public class Cliente {
     public void setHorario_do_casamento(String horario_do_casamento) {
         this.horario_do_casamento = horario_do_casamento;
     }
-    
 }

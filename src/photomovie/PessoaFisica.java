@@ -34,5 +34,4 @@ public class PessoaFisica extends Cliente {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    
 }

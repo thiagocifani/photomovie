@@ -23,5 +23,4 @@ public class Photomovie {
         p.nome = "Thiago Cifani";
         System.out.println(p.email + " " +  p.nome);
     }
-    
 }
