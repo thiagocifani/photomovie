@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package photomovie;
+package photomovie.models;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  *
@@ -15,11 +15,11 @@ public class Cliente {
     String endereco;
     String telefone;
     String email;
-    Date data_do_casamento;
+    String data_do_casamento;
     String cidade_do_casamento;
     String horario_do_casamento;
 
-    public Cliente(String endereco, String telefone, String email, Date data_do_casamento, String cidade_do_casamento, String horario_do_casamento) {
+    public Cliente(String endereco, String telefone, String email, String data_do_casamento, String cidade_do_casamento, String horario_do_casamento) {
         this.endereco = endereco;
         this.telefone = telefone;
         this.email = email;
@@ -52,11 +52,11 @@ public class Cliente {
         this.email = email;
     }
 
-    public Date getData_do_casamento() {
+    public String getData_do_casamento() {
         return data_do_casamento;
     }
 
-    public void setData_do_casamento(Date data_do_casamento) {
+    public void setData_do_casamento(String data_do_casamento) {
         this.data_do_casamento = data_do_casamento;
     }
 

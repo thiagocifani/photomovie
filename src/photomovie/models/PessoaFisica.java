@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package photomovie;
+package photomovie.models;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  *
@@ -15,8 +15,10 @@ public class PessoaFisica extends Cliente {
     String nome;
     String cpf;
 
-    public PessoaFisica(String endereco, String telefone, String email, Date data_do_casamento, String cidade_do_casamento, String horario_do_casamento) {
+    public PessoaFisica(String nome, String cpf, String endereco, String telefone, String email, String data_do_casamento, String cidade_do_casamento, String horario_do_casamento) {
         super(endereco, telefone, email, data_do_casamento, cidade_do_casamento, horario_do_casamento);
+        this.nome = nome;
+        this.cpf = cpf;
     }
 
     public String getNome() {

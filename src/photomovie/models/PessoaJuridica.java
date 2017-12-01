@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package photomovie;
-
-import java.util.Date;
+package photomovie.models;
 
 /**
  *
@@ -15,7 +13,7 @@ public class PessoaJuridica extends Cliente {
     String razaoSocial;
     String cnpj;
 
-    public PessoaJuridica(String endereco, String telefone, String email, Date data_do_casamento, String cidade_do_casamento, String horario_do_casamento) {
+    public PessoaJuridica(String endereco, String telefone, String email, String data_do_casamento, String cidade_do_casamento, String horario_do_casamento) {
         super(endereco, telefone, email, data_do_casamento, cidade_do_casamento, horario_do_casamento);
     }
 
